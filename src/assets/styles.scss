@@ -1,5 +1,132 @@
 @import "./variables.scss";
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   color: $main-color;
+  font-family: Quicksand;
 }
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  margin-bottom: 0;
+}
+.header{
+  height: 100px;
+}
+.logo{
+  text-align: center;
+  background: #0F7BFF;
+  border-radius: 0px 0px 21.5px 21.5px;
+  width:179px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.logo a{
+
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 45px;
+}
+.menu a{
+  text-transform: uppercase;
+  color: grey;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+}
+.menu{
+  text-align: center;
+}
+.menu a:hover{
+  color: #0F7CFF;
+}
+.sign{
+  background: #0063DD;
+  border-radius: 25px;
+  max-width: 165px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign a{
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.logo_text{
+  text-align: center;
+  max-width: 640px;
+  margin-top: 65px;
+}
+.batton_use{
+  display: flex;
+  justify-content: space-evenly;
+}
+p.title_text {
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+}
+p.description_text {
+  color: #929292;
+  font-size: 16px;
+  line-height: 27px;
+}
+a.batton_dowload {
+  background: #0F7BFF;
+  border-radius: 25px;
+  width: 166px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+a.batton_trial {
+  border: 2px solid #0F7BFF;
+  box-sizing: border-box;
+  border-radius: 25px;
+  width: 166px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.devices{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+
+.devices_block{
+  overflow: hidden;
+  height: 524px;
+}
+
+
